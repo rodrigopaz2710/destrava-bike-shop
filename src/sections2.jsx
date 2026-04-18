@@ -155,8 +155,8 @@ const About = () => (
         <p>Ele decidiu ficar. E decidiu aprender o que ninguém ensinava nos cursos de mecânica. Estudou marketing, aprendeu a vender, montou processos. Criou o que hoje chama de <b>Método MVP</b> — o mesmo que está nesses 3 guias.</p>
         <div className="about-stats">
           <div className="about-stat"><div className="n">5/dia</div><div className="l">Bicicletas vendidas em média · jan/2025</div></div>
-          <div className="about-stat"><div className="n">R$ 400k</div><div className="l">Maior mês de faturamento físico</div></div>
-          <div className="about-stat"><div className="n">R$ 3,3M</div><div className="l">Faturamento total em 2024</div></div>
+          <div className="about-stat"><div className="n">+100</div><div className="l">Lojistas auxiliados no último ano</div></div>
+          <div className="about-stat"><div className="n">7 dígitos</div><div className="l">Faturamento em 2025</div></div>
         </div>
         <p style={{fontSize:15}}>Hoje, além de tocar a própria loja, Felipe acompanha outros lojistas de bike shop aplicando o mesmo método — com resultados em menos de 3 meses.</p>
       </div>
