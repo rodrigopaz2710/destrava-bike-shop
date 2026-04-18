@@ -146,8 +146,7 @@ const About = () => (
   <section className="about">
     <div className="wrap">
       <div className="about-photo">
-        <div className="silhouette"></div>
-        <div className="tag" style={{position:'relative',zIndex:2}}>FOTO · FELIPE MARANGONI</div>
+        <img src="assets/felipe.webp" alt="Felipe Marangoni" style={{width:'100%',height:'100%',objectFit:'cover',borderRadius:'inherit'}} />
       </div>
       <div>
         <div className="eyebrow">Quem escreveu</div>
