@@ -415,7 +415,7 @@ section .wrap{position:relative}
 .forwho-card h3{font-size:28px;margin-bottom:24px}
 .forwho-card ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
 .forwho-card li{display:flex;gap:12px;font-size:15.5px;color:var(--ink-2)}
-.forwho-card .ico{flex:0 0 22px;height:22px;border-radius:6px;display:grid;place-items:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:14px;margin-top:1px}
+.forwho-card .ico{flex:0 0 32px;height:32px;border-radius:6px;display:grid;place-items:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:14px;margin-top:1px}
 .yes .ico{background:rgba(62,207,142,.12);color:var(--ok)}
 .no .ico{background:rgba(227,25,43,.12);color:var(--red)}
 
@@ -613,7 +613,7 @@ footer a:hover{color:var(--ink)}
   /* ---------- ABOUT ---------- */
   .about .wrap{gap:28px}
   .about-photo{aspect-ratio:3/4;max-width:320px;margin:0 auto}
-  .about-stats{grid-template-columns:repeat(3,1fr);gap:8px;margin:20px 0}
+  .about-stats{grid-template-columns:repeat(2,1fr);gap:8px;margin:20px 0}
   .about-stat{padding:12px 10px}
   .about-stat .n{font-size:22px}
   .about-stat .l{font-size:9px;letter-spacing:.1em;margin-top:4px}
@@ -634,7 +634,7 @@ footer a:hover{color:var(--ink)}
 
   /* ---------- FAQ ---------- */
   .faq-q{padding:16px 18px;font-size:16px;gap:12px}
-  .faq-q .plus{width:24px;height:24px;flex:0 0 24px}
+  .faq-q .plus{width:32px;height:32px;flex:0 0 32px}
   .faq-item.open .faq-a{max-height:400px;padding:4px 18px 20px}
   .faq-a{padding:0 18px;font-size:14.5px}
 

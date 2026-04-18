@@ -1,6 +1,6 @@
-const { useState, useEffect, useRef } = React;
-
-const HOTMART_URL = '#'; // placeholder — substituir pelo link real da Hotmart
+import { useState, useEffect } from 'react';
+import { Hero, Pain, Villain, MVP } from './sections.jsx';
+import { Guides, Testimonials, Offer, About, ForWho, Guarantee, FAQ, Final, Footer, StickyBuy } from './sections2.jsx';
 
 function App(){
   const [tweaks, setTweaks] = useState(window.TWEAK_DEFAULTS);
@@ -94,4 +94,4 @@ function App(){
   );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+export default App;

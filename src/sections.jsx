@@ -1,10 +1,12 @@
+import { BookCover, GUIDES } from './covers.jsx';
+
 const Arrow = () => <svg className="arrow" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 
 const Nav = ({ onBuy }) =>
 <nav className="nav">
     <div className="wrap nav-inner">
       <a href="#top" className="nav-logo">
-        <img src="assets/logo-destrava.png" alt="Destrava Bike Shop" />
+        <img src="assets/logo-destrava.webp" alt="Destrava Bike Shop" />
         <span>Destrava<span className="dot">.</span></span>
       </a>
       <button className="nav-cta" onClick={onBuy}>Garantir acesso</button>
@@ -169,4 +171,4 @@ const MVP = () =>
   </section>;
 
 
-Object.assign(window, { Nav, Hero, Pain, Villain, MVP, Arrow });
+export { Arrow, Nav, Hero, Pain, Villain, MVP };

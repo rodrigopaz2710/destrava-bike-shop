@@ -80,4 +80,4 @@ const GUIDES = [
   },
 ];
 
-Object.assign(window, { BookCover, GUIDES });
+export { BookCover, GUIDES };

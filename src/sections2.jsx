@@ -1,3 +1,7 @@
+import { useState } from 'react';
+import { Arrow } from './sections.jsx';
+import { BookCover, GUIDES } from './covers.jsx';
+
 const Guides = () => (
   <section id="guides">
     <div className="wrap">
@@ -223,7 +227,7 @@ const FAQS = [
 ];
 
 const FAQ = () => {
-  const [open, setOpen] = React.useState(0);
+  const [open, setOpen] = useState(0);
   return (
     <section>
       <div className="wrap">
@@ -283,4 +287,4 @@ const StickyBuy = ({ show, onBuy, price }) => (
   </div>
 );
 
-Object.assign(window, { Guides, Testimonials, Offer, About, ForWho, Guarantee, FAQ, Final, Footer, StickyBuy });
+export { Guides, Testimonials, Offer, About, ForWho, Guarantee, FAQ, Final, Footer, StickyBuy };
