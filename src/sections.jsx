@@ -6,7 +6,7 @@ const Nav = ({ onBuy }) =>
 <nav className="nav">
     <div className="wrap nav-inner">
       <a href="#top" className="nav-logo">
-        <img src="assets/logo-destrava.webp" alt="Destrava Bike Shop" />
+        <img src="assets/logo-destrava.webp" alt="Destrava Bike Shop" width="120" height="120" />
         <span>Destrava<span className="dot">.</span></span>
       </a>
       <button className="nav-cta" onClick={onBuy}>Garantir acesso</button>

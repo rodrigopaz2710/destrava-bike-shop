@@ -146,7 +146,7 @@ const About = () => (
   <section className="about">
     <div className="wrap">
       <div className="about-photo">
-        <img src="assets/felipe.webp" alt="Felipe Marangoni" style={{width:'100%',height:'100%',objectFit:'cover',borderRadius:'inherit'}} />
+        <img src="assets/felipe.webp" alt="Felipe Marangoni" width="500" height="667" loading="lazy" style={{width:'100%',height:'100%',objectFit:'cover',borderRadius:'inherit'}} />
       </div>
       <div>
         <div className="eyebrow">Quem escreveu</div>
